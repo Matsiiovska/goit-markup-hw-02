@@ -1,5 +1,6 @@
 :root{
     --main-font:'Roboto', sans-serif;
+    --font-family-logo:'Raleway', sans-serif;
     --accent-color:#404BBF;
     --contact-colort: #434455;
     --button-font-color: #FFFFFF;
@@ -111,7 +112,7 @@ color: var(--button-font-color);
 background-color:var(--accent-color);
 }
 .logo{
-    font-family: 'Raleway';
+    font-family: var(--font-family-logo);
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -119,7 +120,7 @@ background-color:var(--accent-color);
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: var(--color-different-style);
 }
 .logo-style{
     color: var(--subtitle-color);
