@@ -15,9 +15,10 @@
     text-decoration: none;
 }
 
-body{
+.body{
 font-family: var(--main-font);
 font-weight: 400;
+color:var(--contact-colort);
 }
 /*-----------------HEADER----------------------------*/
 .menu-link {
@@ -38,6 +39,7 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contact-color);
+    font-style: normal;
 }
 
 .contact-phone-number:hover,
@@ -46,7 +48,7 @@ font-weight: 400;
 }
 /*-----------------/HEADER----------------------------*/
 /*-----------------HERO----------------------------*/
-.main-title {
+.main-title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -80,10 +82,11 @@ color: var(--fill-text-color);
     background-color:var(--accent-color);
 }
 
-.hero-text {
+.hero-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: var(--subtitle-color);
 }
 
 .suptitle {
@@ -127,6 +130,15 @@ background-color:var(--accent-color);
 }
 .basement-style-logo{
     color:var(--fill-text-color);
+}
+.hero{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: var(--button-font-color);
 }
 
 /*-----------------/COMPONENTS----------------------------*/
