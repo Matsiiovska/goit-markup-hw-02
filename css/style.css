@@ -110,10 +110,6 @@ color:var(--contact-color);
         letter-spacing: 0.02em;
         color:var(--subtitle-color);
 }
-.button-color-second-page{
-color:var(--color-different-style);
-background-color: var(--fill-text-color);
-}
 .button-color-first{
 color: var(--button-font-color);
 background-color:var(--accent-color);
@@ -148,5 +144,7 @@ background-color:var(--accent-color);
 .footer-style{
   background-color: var(--subtitle-color);  
 }
-
+.course-cleaning{
+    font-style: normal;
+}
 /*-----------------/COMPONENTS----------------------------*/
