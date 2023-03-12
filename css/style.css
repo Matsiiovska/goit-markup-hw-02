@@ -2,7 +2,7 @@
     --main-font:'Roboto', sans-serif;
     --font-family-logo:'Raleway', sans-serif;
     --accent-color:#404BBF;
-    --contact-colort: #434455;
+    --contact-color: #434455;
     --button-font-color: #FFFFFF;
     --subtitle-color:#2E2F42;
     --fill-text-color:#F4F4FD;
@@ -18,7 +18,7 @@
 body{
 font-family: var(--main-font);
 font-weight: 400;
-color:var(--contact-colort);
+color:var(--contact-color);
 }
 /*-----------------HEADER----------------------------*/
 .menu-link {
@@ -73,8 +73,6 @@ color:var(--contact-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color:var(--button-font-color);
     background-color: var(--color-different-style);
@@ -90,7 +88,7 @@ color:var(--contact-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--contact-colort);
+    color: var(--contact-color);
 }
 
 .suptitle {
@@ -106,7 +104,6 @@ color:var(--contact-color);
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
         letter-spacing: 0.02em;
         color:var(--subtitle-color);
 }
@@ -119,8 +116,6 @@ background-color:var(--accent-color);
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--color-different-style);
@@ -135,8 +130,6 @@ background-color:var(--accent-color);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         letter-spacing: 0.04em;
         color: var(--button-font-color);
         background-color: var(--subtitle-color);
@@ -152,11 +145,15 @@ background-color:var(--accent-color);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
         color:var(--color-different-style);
         cursor: pointer;
+        background-color: var(--fill-text-color);
+}
+.two-buttons:hover,
+.two-buttons:focus{
+color: var(--button-font-color);
+background-color: var(--accent-color);
 }
 /*-----------------/COMPONENTS----------------------------*/
